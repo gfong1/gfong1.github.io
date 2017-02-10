@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+#cube-1{
+    left: 1300px;
+    top: -150px;
+	width: 300px;
+}
+#cube-2{
+	left: 400px;
+    top: 500px;
+	width: 500px;
+}
+#cube-3{
+	left: -300px;
+    top: -400px;
+	width: 500px;
+}
+#cube-4{
+    left: 1300px;
+    top: 1000px;
+	width: 300px;
+}
+#cube-5{
+	left: 400px;
+    top: 1700px;
+	width: 500px;
+}
+#cube-6{
+	left: -300px;
+    top: 2200px;
+	width: 500px;
+}
+
+
+
+#cube-a{
+	left: -1200px;
+    top: 200px;
+	width: 700px;
+}
+#cube-b{
+	left: 1300px;
+    top: 600px;
+	width: 400px;
+}
+#cube-c{
+	left: 600px;
+    top: -600px;
+	width: 500px;
+}
+#cube-d{
+	left: -1200px;
+    top: 1600px;
+	width: 700px;
+}
+#cube-e{
+	left: 1300px;
+    top: 2300px;
+	width: 400px;
+}
+#cube-f{
+	left: 1500px;
+    top: 1400px;
+	width: 500px;
+}
