@@ -1,0 +1,375 @@
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../assets/fonts/Lato-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../assets/fonts/Lato-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url(../assets/fonts/Lato-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url(../assets/fonts/Quicksand-Bold.otf);
+}
+
+$font-stack: Lato-Regular, Quicksand-Bold;
+
+body {
+	font-family: $font-stack;
+	height: 100%;
+  width: 100%;
+  background: #f3f3f3;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+   font-weight: 600;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;
+   font-weight: 600;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white; 
+   font-weight: 600; 
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+   font-weight: 600;
+}
+
+.mission {
+  display: flex;
+  display: -webkit-flex;
+  padding: 20px 0px 240px 0px;
+  background: url(../assets/images/landing/mission.png);
+  background-size: cover;
+
+  .left-flex {
+    flex: 1;
+  }
+
+  .inner-mission {
+    flex: 8;
+
+    #logo {
+      width: 120px;
+      height: 35px;
+      margin: 0px 10px 10px 0px;
+    }
+
+    #statement {
+      margin: 180px 10px 10px 0px;
+      max-width: 440px;
+
+      h1 {
+        margin: 6px 4px 6px 0px;
+        font-family: Lato-Bold;
+        font-size: 38px;
+      }
+      p {
+        margin: 6px 4px 6px 0px;
+        font-size: 17px;
+      }
+    }
+
+
+    .learn-more {
+      background-color: rgba(121, 195, 81, 1);
+      color: white;
+      font-family: Lato-Regular;
+      font-size: 16px;
+      border-radius: 4px;
+      border-style: none;
+      margin: 20px 10px 10px 0px;
+      width: 180px;
+      height: 40px;
+
+      transition:.2s;
+      -o-transition:.2s;
+      -ms-transition:.2s;
+      -moz-transition:.2s;
+      -webkit-transition:.2s;
+
+      a:hover {
+        color: blue;
+      }
+
+    }
+
+    .learn-more:hover {
+        background-color: #57B837;
+    }
+  }
+}
+
+.purpose {
+  background-color: rgba(251, 254, 255, 1);
+  display: flex;
+  display: -webkit-flex;
+  padding: 50px 0px 20px 40px;
+
+  .left-flex {
+    flex: 1;
+  }
+
+    #game-demo {
+      margin: 80px 20px 80px 0px;
+      height: 440px;
+      width: auto;
+    }
+
+    .text {
+      display: flex;           
+      flex-direction: column; 
+      align-items: center;
+      flex: 10;
+      line-height: 1;
+
+      #top {
+        margin: 0px 0px 60px 0px;
+        text-align: center;
+
+        h1 {
+          font-family: Quicksand-Bold;
+        }
+
+        p {
+          font-family: Lato-Light;
+          font-size: 17px;
+        }
+      }
+
+      #steps {
+        display: inline-flex;
+        display: -webkit-flex;
+        margin: 0px 0px 30px 0px;
+
+        .step {
+          text-align: center;
+          margin: 0px 20px 0px 20px;
+          flex: 1;
+
+          h2 {
+            font-family: Lato-Bold;
+          }
+
+          p { 
+            font-family: Lato-Light;
+            font-size: 16px;
+            line-height: 1.4;
+          }
+
+          img {
+            width: 42px;
+            height: 42px;
+          }
+        }
+      }
+
+      #partners {
+        margin: 60px 0px 30px 0px;
+        font-size: 15px;
+        text-align: center;
+
+        img {
+          margin: 20px 9px 0px 9px;
+          display: inline;
+          height: 47px;
+          width: auto;
+        }
+      }
+
+      #downloads {
+        display: inline-flex;
+        display: -webkit-flex;
+        margin: 50px 0px 20px 0px;
+
+        img {
+          margin: 5px 20px 5px 20px;
+        }
+
+        #google {
+          margin: -5px 0px 0px 0px;
+          width: 155px;
+          height: 60px;
+        }
+      }
+    }
+}
+
+.business {
+  padding: 30px 0px 120px 50px;
+  display: flex;
+  display: -webkit-flex;
+  line-height: 1.2;
+
+  .left-flex {
+    flex: 1;
+  }
+
+  .right-flex {
+    flex: 3;
+    margin: 120px 20px 20px 40px;
+
+    #laptop {
+    width: 560px;
+    height: 300px;
+    }
+
+    #playpad {
+
+    }
+  }
+
+  .inner-business {
+    flex: 10;
+
+    h1 {
+        font-family: Quicksand-Bold;
+    }
+
+    p {
+      font-family: Lato-Light;
+      font-size: 16px;
+      line-height: 2;
+    }
+
+    #explain {
+      max-width: 480px;
+      margin: 5px 20px 20px 0px;
+    }
+
+    #features {
+      h3 {
+        font-family: Quicksand-Bold;
+      }
+
+      ul {
+        margin: 0px 0px 40px -40px;
+        list-style: none;
+        li {
+          margin: 20px 10px 20px 0px;
+          font-family: Lato-Light;
+          font-size: 16px;
+
+          img {
+            margin: 0px 25px 0px 0px;
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+
+      #learn-more {
+        background-color: rgba(82, 168, 255, 1);
+        color: white;
+        font-size: 17px;
+        font-family: Quicksand-Bold;
+        border-radius: 4px;
+        border-style: none;
+        margin: 16px 10px 10px 0px;
+        width: 200px;
+        height: 40px;
+
+        transition:.2s;
+        -o-transition:.2s;
+        -ms-transition:.2s;
+        -moz-transition:.2s;
+        -webkit-transition:.2s;
+      } 
+
+      #learn-more:hover {
+        background-color: #2E96FF;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: rgba(33, 67, 102, 1);
+  display: inline-flex;
+  display: -webkit-flex;
+  padding: 30px 20px 20px 0px;
+  font-family: Lato-Light;
+  font-size: 15px;
+  color: white;
+
+  a {
+    text-decoration: none;
+    transition:.2s;
+    -o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+  }
+
+  a:link {
+    color: gray;
+  }
+  a:visited {
+    color: gray;
+  }
+  a:hover {
+    color: #999999;
+  }
+
+  .left-flex {
+    flex: 2;
+  }
+
+  #copyright {
+    font-size: 11px;
+    flex: 6;
+
+    img {
+      width: 160px;
+    }
+  }
+
+  #love {
+    margin: 10px 5px 0px 10px;
+    flex: 6;
+  }
+
+  #company {
+    margin: 0px 10px 0px 10px;
+    flex: 4;
+  }
+
+  #contact {
+    margin: 0px 10px 0px 10px;
+    flex: 4;
+
+    a {
+      color: rgba(82, 168, 255, 1);
+    }
+
+    a:hover {
+      color: #7ABCFF;
+    }
+    
+    img {
+      width: 100px;
+      height: 33px;
+      margin: 25px 20px 5px 0px;
+    }
+
+    img:hover {
+      opacity: .8;
+    }
+  }
+
+}

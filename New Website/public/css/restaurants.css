@@ -1,0 +1,220 @@
+.intro {
+  display: flex;
+  display: -webkit-flex;
+  padding: 20px 0px 200px 0px;
+  background: url(../assets/images/business/intro.png);
+  background-size: cover;
+  color: white;
+  line-height: 1.1; }
+  .intro .left-flex {
+    flex: 1; }
+  .intro .inner-intro {
+    flex: 8; }
+    .intro .inner-intro #logo {
+      width: 120px;
+      height: 35px;
+      margin: 0px 10px 10px 0px; }
+    .intro .inner-intro #statement {
+      margin: 250px 10px 10px 0px;
+      max-width: 360px; }
+      .intro .inner-intro #statement h1 {
+        margin: 6px 4px 20px 0px;
+        font-family: Lato-Regular;
+        font-size: 36px;
+        letter-spacing: 1.2px; }
+      .intro .inner-intro #statement p {
+        font-family: Lato-Light;
+        margin: 6px 4px 6px 0px;
+        font-size: 20px;
+        letter-spacing: .6px; }
+
+.dash {
+  display: flex;
+  display: -webkit-flex;
+  padding: 20px 0px 240px 0px;
+  background: url(../assets/images/business/dashboard.png);
+  background-size: cover;
+  color: black;
+  line-height: 1.1; }
+  .dash .left-flex {
+    flex: 1; }
+  .dash .inner-dash {
+    flex: 8; }
+    .dash .inner-dash #text {
+      margin: 100px 10px 10px 0px;
+      max-width: 380px;
+      font-family: Lato-Regular; }
+      .dash .inner-dash #text h2 {
+        margin: 6px 4px 20px 0px;
+        font-size: 28px;
+        letter-spacing: 1px; }
+      .dash .inner-dash #text p {
+        margin: 6px 4px 6px 0px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.5; }
+
+.dash-features {
+  display: flex;
+  display: -webkit-flex;
+  text-align: center;
+  padding: 20px 20px 10px 20px;
+  line-height: 1; }
+  .dash-features img {
+    height: 70px;
+    width: auto; }
+  .dash-features .flex-space {
+    flex: 1; }
+  .dash-features .inner-dash-features {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    flex: 10; }
+    .dash-features .inner-dash-features h2 {
+      font-size: 28px; }
+    .dash-features .inner-dash-features .feature-box {
+      margin: 30px 0px 20px 0px;
+      flex-direction: row; }
+          .dash-features .inner-dash-features .feature-box .feature-col .feature-item h3 {
+            font-family: Lato-Bold; }
+          .dash-features .inner-dash-features .feature-box .feature-col .feature-item p {
+            font-size: 13.5px;
+            line-height: 1.75;
+            letter-spacing: .5px; }
+
+.playpad {
+  display: flex;
+  display: -webkit-flex;
+  padding: 20px 0px 240px 0px;
+  background: url(../assets/images/business/playpad.png);
+  background-color: beige;
+  background-size: cover;
+  color: black;
+  line-height: 1.1; }
+  .playpad .left-flex {
+    flex: 1; }
+  .playpad .inner-playpad {
+    flex: 8; }
+    .playpad .inner-playpad #text {
+      margin: 100px 10px 10px 0px;
+      max-width: 480px;
+      font-family: Lato-Regular; }
+      .playpad .inner-playpad #text h2 {
+        margin: 6px 4px 20px 0px;
+        font-size: 28px;
+        letter-spacing: 1px; }
+      .playpad .inner-playpad #text p {
+        margin: 6px 4px 6px 0px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.5; }
+
+.playpad-features-title {
+  text-align: center;
+  font-size: 32px;
+  margin: 60px 0px 0px 0px; }
+
+.playpad-features {
+  padding: 30px 0px 140px 0px;
+  line-height: 1.2; }
+  .playpad-features .flex-space {
+    flex: 1; }
+  .playpad-features .inner-playpad-features {
+    display: inline-flex;
+    display: -webkit-flex;
+    text-align: left;
+    flex: 8; }
+    .playpad-features .inner-playpad-features #text {
+      flex: 6;
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: column; }
+      .playpad-features .inner-playpad-features #text .feature {
+        margin: 20px 0px 20px 0px; }
+        .playpad-features .inner-playpad-features #text .feature h2 {
+          font-size: 22px; }
+        .playpad-features .inner-playpad-features #text .feature p {
+          font-family: Lato-Light;
+          line-height: 1.5;
+          font-size: 15px;
+          letter-spacing: .4px; }
+    .playpad-features .inner-playpad-features #demo {
+      flex: 6;
+      margin: 0px 0px 0px 0px; }
+      .playpad-features .inner-playpad-features #demo img {
+        float: right;
+        height: 540px;
+        width: auto; }
+
+.placeholder {
+	color: green;
+}
+
+.row {
+	display: inline-flex;
+    display: -webkit-flex;
+}
+.row div {
+	width: 48%;
+	margin: 0px 0px 0px 0px
+}
+#form_spacing {
+	width: 4%;
+}
+#partner h2{
+	margin: 0px;
+	text-align: center;
+}
+#become_partner {
+	margin: 0px 30px 40px 30px;
+}
+#become_partner p {
+	margin: 10px 0px 5px 0px;
+}
+#become_partner input, #form_questions{
+	width: 100%;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-appearance: none; 
+    -moz-appearance: none; 
+    border: 1px solid #eee; /* Here */
+	height: 30px;
+}
+#form_questions {
+	height: 100px;
+}
+#form_submit {
+	background-color: #52a8ff;
+	color: white;
+	font-size: 17px;
+	font-family: Quicksand-Bold;
+	border-radius: 4px;
+	border-style: none;
+	margin: 16px 10px 10px 0px;
+	width: 200px;
+	height: 40px;
+	transition: .2s;
+	-o-transition: .2s;
+	-ms-transition: .2s;
+	-moz-transition: .2s;
+	-webkit-transition: .2s; 
+}
+#form_submit:hover {
+	background-color: #2E96FF; 
+}
+#form_success {
+	margin: auto;
+	border-radius: 4px;
+	border-style: none;
+	font-size: 17px;
+	color: white;
+	background-color: #5ED65E;
+	display:none;
+}
+#form_success p {
+	padding: 10px;
+	margin: 20px;
+}
+
+/*# sourceMappingURL=restaurants.css.map */
