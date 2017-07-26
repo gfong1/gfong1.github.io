@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700);
+
+/*Default Items*/
+body {
+	margin: 0px;
+	font-family: 'Poppins', sans-serif;
+/*	text-transform: lowercase;*/
+}
+h1{
+	margin: 0px;
+}
+h2{
+	font-weight: 700;
+	margin: 0px;
+}
+h3 {
+	margin:	0px;
+}
+p {
+	margin: 0px;
+}
+
+/*Generic Styling*/
+.section {
+	margin: 0px;
+	padding-bottom: 30px;
+	/*display: inline-flex;
+	display: -webkit-flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;*/
+}
+.content{
+
+}
+.list_item {
+	margin: 30px 30px 30px 30px;
+}
+.section_title {
+	padding: 40px 10px;
+	position: absolute;
+	right: 0px;
+}
+
+/*Nav*/
+#logo {
+	margin: 0px;
+	height: 60px;
+}
+#nav_title {
+	padding: 0px;
+	margin: 0px;
+}
+#nav_items {
+	height: 60px;
+	background-color: black;
+}
+
+/*Sections*/
+#home {
+	padding: 230px 100px 200px 100px;
+	/*background-color: #374785;*/
+	background-color: #DF7567; /*mountain sunset*/
+}
+#home h1{
+	text-align: center;
+	font-weight: 700;
+	font-size: 100px;
+	padding: 10px;
+	/*background: url("../images/giphy.gif") repeat;*/
+	/*background: url(http://img07.deviantart.net/5594/i/2012/118/8/3/textures_49_by_sophiefzy-d4xtjbw.jpg) -20px -20px;*/
+	/*background-size: 100%;*/
+	/*-webkit-text-fill-color: transparent;*/
+	/*-webkit-background-clip: text;*/
+	color: black;
+}
+#home p{
+	text-align: center;
+}
+#programming{
+	/*background-color: #F76C6C;*/
+	background-color: #9A585C; /*mountain sunset*/
+}
+#leadership{
+	/*background-color: #A8D0E6;*/
+	background-color: #624652; /*mountain sunset*/
+}
+#mental_health{
+	/*background-color: #3AAFA9;*/
+	background-color: #4d4662; /*mountain sunset*/
+}
+#talks{
+	/*background-color: #F8E9A1;*/
+	background-color: #282945; /*mountain sunset*/
+}
+#fun{
+	/*background-color: #F5E6CC;*/
+	background-color: #1F203C; /*mountain sunset*/
+}
+#contact{
+
+	padding: 200px 100px 200px 100px;
+	text-align:center;
+	/*background-color: #9B786F;*/
+	background-color: #141528; /*mountain sunset*/
+	color: white;
+}
