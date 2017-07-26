@@ -1,214 +1,159 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-  <title>PlayFull For Restaurants</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta http-equiv="X-Frame-Options" content="allow">
-  <meta name="description" content="PlayFull">
-  <meta name="author" content="PlayFull">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" href="../public/css/main.css">
-  <link rel="stylesheet" href="../public/css/restaurants.css">
-  <link rel="stylesheet" href="../public/css/restraunts_mobile.css">
-  <link rel="stylesheet" href="../public/css/mobile.css">
-  <link rel="icon" href="../public/assets/images/favicon.png">
-
-  <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-  <script type="text/javascript" src="../public/js/main.js"></script>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="./css/cubes.css"s>
+<title>Grant Fong</title>
 </head>
-<body id="top">
-<div class="intro">
-  <div class="left-flex"></div>
-  <div class="inner-intro">
-    <a href="/"><img id="logo" src="../public/assets/images/playfull-logo-white.svg"></a>
 
-    <div id="statement">
-      <h1> The power of Play at your fingertips</h1>
-      <p> Control your engagement with the PlayFull Dashboard and PlayPad </p>
-    </div>
-  </div> 
-</div>
-
-<div class="dash">
-  <div class="left-flex"></div>
-  <div class="inner-dash">
-    <div id="text">
-    <h2>PlayFull Dashboard</h2>
-    <p>The Dashboard consolidates data from the PlayPad and PlayFull App and provides custom branded tools for you to directly improve your metrics. </p>
-    </div>
-  </div>
-</div>
-
-<div class="dash-features">
-
-  <div class="inner-dash-features">
-    <h2> Dashboard Features </h2>
-    <div class="feature-box">
-      <div class="feature-col">
-        <div class="feature-item">
-          <img id="logo" src="../public/assets/images/business/priceplans.png">
-          <h3> Custom Price Plans </h3>
-          <p> PlayFull works with each company individually to custom fit the plan that will help grow your brand and product exponentially. </p>
-        </div>
-        <div class="feature-item">
-          <img id="logo" src="../public/assets/images/business/games.png">
-          <h3> Custom Branded Games and Rewards </h3>
-          <p> Create custom branded games and rewards to engage customers inside and outside your restaurant. Games are crafted to suit your customer demographic and rewards are based off your food cost and sales goals. </p>
-        </div>
-      </div>
-
-      <div class="feature-col">
-        <div class="feature-item">
-          <img id="logo" src="../public/assets/images/business/customer.png">
-          <h3> Customers </h3>
-          <p> You can view a breakdown of how many times specific customers visit your store in a given month through the dashboard. This gives you the ability to reward your most loyal customers. </p>
-        </div>
-        <div class="feature-item">
-          <img id="logo" src="../public/assets/images/business/location.png">
-          <h3> Multi-location Control </h3>
-          <p> Control 1 to 2000+ locations with the click of a button. Conveniently manage your analytics, games, and rewards from your computer or phone. </p>
-        </div>
-      </div>
-
-      <div class="feature-col">
-        <div class="feature-item">
-          <img id="logo" src="../public/assets/images/business/fundraiser.png">
-          <h3> Crowd Fundraisers </h3>
-          <p> Send fundraiser notifactions to all immediate users near the fundraiser's physical address. </p>
-        </div>
-        <div class="feature-item">
-          <img id="logo" src="../public/assets/images/business/rewards.png">
-          <h3> Geolocation Rewards </h3>
-          <p> Have complete control over your coupon values that you release to the market in different locations. In addition, you can also follow up on redepmtion numbers and percentages. </p>
-        </div>
-      </div>
-    </div>
-    </div>
-
-</div>
-
-<div class="playpad">
-  <div class="left-flex"></div>
-  <div class="inner-playpad">
-    <div id="text">
-      <h2> The PlayPad </h2>
-      <p> The PlayPad is a customer-facing tablet next to your POS that protects, gives you the ability to quantity your marketing tactics and coupons and ensures secured transactions. </p>
-    </div>
-  </div>
-</div>
-
-<div class="playpad-features-title">
-PlayPad Features
-</div> 
-
-<div class="playpad-features">
-  <div class="flex-space"></div>
-    <div id="demo">
-      <img id="logo" src="../public/assets/images/business/qr.png">
-    </div>
-  <div class="inner-playpad-features">
-    <div id="text">
-      <div class="feature">
-        <h2> Quantify your reward ROI</h2>
-        <p> The PlayPad tracks who is redeeming your rewards and uploading dashboard in real time. Its QR technology prevents reward abuse so that rewards are only given to customers who have earned them.</p> 
-      </div>
-
-      <div class="feature">
-        <h2> Built for Speed</h2>
-        <p> Transaction with the PlayPad are designed to last 3-5 seconds. Reward loyal customers and improve your bottom line faster than it takes to print a receipt.</p> 
-      </div>
-
-      <div class="feature">
-        <h2> Quick Set-up</h2>
-        <p> Start accepting customers with PlayFull in 5 minutes. The PlayPad sits next to your POS, only needs access to power and internet, and does not integrate with your POS system at all. </p> 
-      </div>
-    </div>
-
-  </div>
-
-  <div class="flex-space"></div>
-</div>
-
-
-<div id="partner">
-	<h2> Become a Restaurant Partner</h2>
-	<form id="become_partner">
-		<div class="row">
-			<div>
-			  <p>First Name:*</p>
-			  <input type="text" name="fname" required>
-			</div>
-			<div id="form_spacing"></div>
-		  <div>
-		    <p> Last name:*</p>
-		    <input type="text" name="lname" required>
-			</div>
+<body>
+	<div id="nav">
+		<h1 id="name"><a href="home.html">grant fong</a></h1>
+		<div id="nav-items">
+			<ul>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#leadership">Leadership</a></li>
+				<li><a id="contact" href="#contact_info">Contact</a></li>
+			</ul>
 		</div>
-		<div class="row">
-			<div>
-			  <p>Email:*</p>
-			  <input type="text" required>
-			</div>
-			<div id="form_spacing"></div>
-		  <div>
-				<p>Phone:</p>
-				<input type="text">
-			</div>
-		</div>
-		<p>Restaurant Name:</p>
-		<input type="text"><br>
-		<p>Restaurant Address:</p>
-		<input type="text"><br>
-		<p>How did you hear about us?</p>
-		<input type="text"><br>
-		<p>Questions?</p>
-		<textarea id="form_questions" name="form_questions" rows="5"></textarea>
-		<div id="form_success">
-			<p>Message successfully sent! We'll be in touch soon!</p>
-		</div>
-		<button id="form_submit">Submit</button>
-	</form>
-</div>
-
-
-<footer>
-  <div class="left-flex"></div>
-  <div id="footer_logos"> 
-  <div id="copyright">
-    <a href="#top"><img src="../public/assets/images/playfull-logo-white.svg"></a>
-    <div> &#64; 2017 PlayFull Inc. </div>
-  </div>
-
-  <div id="love">
-    Made with <img src="../public/assets/images/mouse.svg"> in Los Angeles.
-  </div>
-  
-   <div id="techstars">
-    <a href="http://www.techstars.com">
-      <img src="../public/assets/images/techstars_logo.png"/>
-    </a>
-  </div>
-  
 	</div>
 
-<div id="footer_info">
-  <div id="company">
-    Company <br>
-    <a href="privacy-policy.html">Privacy Policy</a><br>
-    <a href="terms-and-conditions.html">Terms and Conditions</a>
-  </div>
+	<div class="parallax">
 
-  <div id="contact">
-    Contact <br>
-    <a href="mailto:support@beplayfull.com">support@beplayfull.com</a>
-    <a class="mobile-analytics" href="https://mixpanel.com/f/partner">
-      <img src="../public/assets/images/mixpanel.png" alt="Mobile Analytics">
-    </a>
-  </div>
+		<div class="parallax__layer parallax__layer--base">
+			<div id="home">
+				<div class="banner">
+					<h2 class="splash">Developer | Data Scientist</h2>
+					<p id="about_me">Hi! My name is Grant, and i'm a current Sophomore at Brown University
+						concentrating in CS. I have focused on the intersection between healthcare
+						and technology, working in research and startup envirnonments. </p>
+				</div>
+			</div>
+
+			<div id = "experience">
+				<div class="banner">
+					<h2 class="splash">Experience</h2>
+					<img id="arrow" src="./resources/arrow.gif">
+				</div>
+				<div id="inline-base">
+
+					<div id="careconnect" class="content">
+						<img class="icon_cube" src="./resources/cube6.png">
+						<img class="icon" src="./resources/careconnect.png">
+						<h3>CareConnect</h3>
+						<div class="description">
+							<p> Developed and pitched a cross platform app to improve communication between caregivers and families</p>
+						</div>
+					</div>
+
+					<div id="ucsf" class="content">
+						<img class="icon_cube" src="./resources/cube1.png">
+						<img class="icon" src="./resources/ucsf.png">
+						<h3>UCSF</h3>
+						<div class="description">
+							<p> Developed a software package and data pipeline for start to finish genomic analysis and data visualization.</p>
+						</div>
+					</div>
+
+					<div id="flow" class="content">
+						<img class="icon_cube" src="./resources/cube2.png">
+						<img class="icon" src="./resources/flow.png">
+						<h3>flow</h3>
+						<div class="description">
+							<p> Created procedurally generated flow puzzles as a final project for CS015 </p>
+						</div>
+					</div>
+
+					<div id="stanford" class="content">
+						<img class="icon_cube" src="./resources/cube3.png">
+						<img class="icon" src="./resources/stanford.png">
+						<h3>stanford</h3>
+						<div class="description">
+							<p>Created MRI image analytics plugins, performed data cleaning and implemented a database system</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id = "leadership">
+				<div class="banner">
+					<h2 class="splash">Leadership</h2>
+					<img id="arrow" src="./resources/arrow.gif">
+				</div>
+				<div id="inline-base">
+
+					<div id="hackatbrown" class="content">
+						<img class="icon_cube" src="./resources/cube6.png">
+						<img class="icon" src="./resources/hack.jpg">
+						<h3>Hack@brown</h3>
+						<div class="description">
+							<p> Created methods and strategies to aid team-forming, mentorship, and judging</p>
+						</div>
+					</div>
+
+					<div id="ta" class="content">
+						<img class="icon_cube" src="./resources/cube3.png">
+						<img class="icon" src="./resources/brown.png">
+						<h3>TA for cs015</h3>
+						<div class="description">
+							<p> Graded assignments, held TA hours, design discussions, and lab hours. Redesigned the algorithms homework to become a section.</p>
+						</div>
+					</div>
+
+					<div id="lets" class="content">
+						<img class="icon_cube" src="./resources/cube2.png">
+						<img class="icon" src="./resources/lets.png">
+						<h3>project lets</h3>
+						<div class="description">
+							<p> Provided peer counseling and hosted workshops on Mental Health.</p>
+						</div>
+					</div>
+
+					<div id="ilmhc" class="content">
+						<img class="icon_cube" src="./resources/cube5.png">
+						<img class="icon" src="./resources/ilmhc.png">
+						<h3>ILMHC</h3>
+						<div class="description">
+							<p>Organized the 2nd annual ivy league mental health conference and Created a marketing strategy.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id = "contact_info">
+				<div class="banner">
+					<h2 class="splash">Contact</h2>
+					<h3>grant_fong [at] brown.edu </h3>
+					<a href="https://github.com/gfong1">github</a>
+					<a href="https://www.linkedin.com/in/grant-fong/">linkedin</a>
+					<a href="https://docs.google.com/document/d/157IudkKDnfN1EUEX58RczZvOQFOvo2BN3w-C6igdD3I">resume</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="parallax__layer parallax__layer--back">
+		<!--The back layer of cubes-->
+			<img id="cube-1" class="cube" src="./resources/cube1.png">
+			<img id="cube-2" class="cube" src="./resources/cube2.png">
+			<img id="cube-3" class="cube" src="./resources/cube3.png">
+
+			<img id="cube-4" class="cube" src="./resources/cube4.png">
+			<img id="cube-5" class="cube" src="./resources/cube5.png">
+			<img id="cube-6" class="cube" src="./resources/cube6.png">
+		</div>
+
+		<div class="parallax__layer parallax__layer--deep">
+			<img id="cube-a" class="cube" src="./resources/cube4.png">
+			<img id="cube-b" class="cube" src="./resources/cube5.png">
+			<img id="cube-c" class="cube" src="./resources/cube6.png">
+
+			<img id="cube-d" class="cube" src="./resources/cube1.png">
+			<img id="cube-e" class="cube" src="./resources/cube2.png">
+			<img id="cube-f" class="cube" src="./resources/cube3.png">
+		</div>
+
 	</div>
-</footer>
-
+	<div class="footer"></div>
 </body>
 </html>
