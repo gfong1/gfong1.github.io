@@ -30,22 +30,22 @@
 // $('.purpose').css({'opacity':( 100-$(window).scrollTop() )/100});
 
 jQuery(document).ready(function ($) {
-	$("#scroll").click(function (event) {
-		event.preventDefault();
-		$('html,body').animate({
-			scrollTop: $(this.hash).offset().top
-		}, 500);
-	});
-	
-	$("#become_partner").submit(function (event) {
-		event.preventDefault();
-		$.post( 
-			"https://dev.beplayfull.com/grant/website_contact/",
-			$( "#become_partner" ).serialize()
-		).done(function() {
-			$('#form_success').show().fadeIn();
-		}).fail(function() {
-			alert( "There was an error submiting your request. Try again soon or contact us at support@beplayfull.com" );
-		});
-	});
+    $("#scroll").click(function (event) {
+        event.preventDefault();
+        $('html,body').animate({
+            scrollTop: $(this.hash).offset().top
+        }, 500);
+    });
+
+    $("#become_partner").submit(function (event) {
+        event.preventDefault();
+        $.post(
+            "https://dev.beplayfull.com/grant/website_contact/",
+            $("#become_partner").serialize()
+        ).done(function () {
+            $('#form_success').show().fadeIn();
+        }).fail(function () {
+            alert("There was an error submiting your request. Try again soon or contact us at support@beplayfull.com");
+        });
+    });
 });

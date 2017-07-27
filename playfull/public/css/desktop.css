@@ -1,68 +1,99 @@
 @charset "UTF-8";
 /* CSS Document */
 body {
-	min-width: 900px;
-}
-.purpose {
-	background-color: #fbfeff;
-	display: flex;
-	display: -webkit-flex;
-}
-    .purpose .text #top {
-      margin: 0px 0px 60px 0px;
-}
-  .purpose #game-demo {
-    margin: 80px 20px 80px 0px;
-	  height: 440px;
-}
-.purpose .text #steps {
-display: inline-flex;
-display: -webkit-flex;
-margin: 0px 0px 30px 0px; }
-.purpose .text #steps .step {
-  text-align: center;
+    min-width: 900px;
 }
 
+#logo {
+    padding-right: 100px;
+}
+
+.purpose {
+    background-color: #fbfeff;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.purpose .text #top {
+    margin: 0px 0px 60px 0px;
+}
+
+.purpose #game-demo {
+    margin: 80px 20px 80px 0px;
+    height: 440px;
+}
+
+.purpose .text #steps {
+    display: inline-flex;
+    display: -webkit-flex;
+    margin: 0px 0px 30px 0px;
+}
+
+.purpose .text #steps .step {
+    text-align: center;
+}
 
 .business {
-	display: flex;
-	display: -webkit-flex;
+    display: flex;
+    display: -webkit-flex;
 }
+
 .business .right-flex #laptop {
-	width: 560px;
-	height: 300px;
+    width: 568px;
+    height: 261px;
 }
 
 footer {
-	display: inline-flex;
-  display: -webkit-flex;
+    display: inline-flex;
+    display: -webkit-flex;
 }
 
-  footer #copyright {
+footer #copyright {
     font-size: 11px;
-    flex: 5; }
-    footer #copyright img {
-      width: 160px; }
-  footer #love {
+    flex: 5;
+}
+
+footer #copyright img {
+    width: 160px;
+}
+
+footer #love {
     margin: 10px 5px 0px 10px;
-    flex: 7; }
-  footer #company {
+    flex: 7;
+}
+
+footer #company {
     margin: 0px 10px 0px 10px;
-    flex: 4; }
-  footer #contact {
+    flex: 4;
+}
+
+footer #contact {
     margin: 0px 10px 0px 10px;
-    flex: 4; }
-    footer #contact a {
-      color: #52a8ff; }
-    footer #contact a:hover {
-      color: #7ABCFF; }
-    footer #contact img {
-      width: 100px;
-      height: 33px;
-      margin: 25px 20px 5px 0px; }
-    footer #contact img:hover {
-      opacity: .8; }
-  footer #techstars {
-    flex: 6; }
-  footer #techstars img {
-      width:150px; }
+    flex: 4;
+}
+
+footer #contact a {
+    color: #52a8ff;
+}
+
+footer #contact a:hover {
+    color: #7ABCFF;
+}
+
+footer #contact img {
+    width: 100px;
+    height: 33px;
+    margin: 25px 20px 5px 0px;
+}
+
+footer #contact img:hover {
+    opacity: .8;
+}
+
+footer #techstars {
+    flex: 6;
+}
+
+footer #techstars img {
+    width: 150px;
+}
