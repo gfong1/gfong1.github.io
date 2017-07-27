@@ -9,6 +9,7 @@
     <meta name="author" content="PlayFull">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="../public/css/nav.css">
     <link rel="stylesheet" href="../public/css/main.css">
     <link rel="stylesheet" href="../public/css/mobile.css">
     <link rel="icon" href="../public/assets/images/favicon.png">
@@ -24,14 +25,19 @@
 </head>
 <body id="top">
 
-<div class="mission">
-    <div class="left-flex"></div>
-    <div class="inner-mission">
-        <div class="navbar">
-            <a href="#top"><img id="logo" src="../public/assets/images/playfull-logo.png"></a>
-            <a class="nav" href="mobile_restaurants.html">Restaurants</a>
-        </div>
+<div class="navbar">
+    <a href="#top"><img id="logo" src="../public/assets/images/playfull-logo.png"></a>
 
+    <label for="drop" class="toggle"><img id="menu-icon" src="../public/assets/images/mobile_menu.png"></label>
+    <input type="checkbox" class="check_box" id="drop" />
+    <ul class="menu">
+        <li><a href="mobile_landing.html">Home</a></li>
+        <li><a href="mobile_restaurants.html">Restaurants</a></li>
+    </ul>
+</div>
+
+<div class="mission">
+    <div class="inner-mission">
         <div id="statement">
             <h1> Play with Purpose</h1>
             <p> See how Play can help your restaurant engage the next generation of customers. </p>

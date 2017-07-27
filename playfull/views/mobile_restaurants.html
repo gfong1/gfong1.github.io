@@ -9,6 +9,7 @@
     <meta name="author" content="PlayFull">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="../public/css/nav.css">
     <link rel="stylesheet" href="../public/css/main.css">
     <link rel="stylesheet" href="../public/css/restaurants.css">
     <link rel="stylesheet" href="../public/css/restraunts_mobile.css">
@@ -25,14 +26,19 @@
     </script>
 </head>
 <body id="top">
-<div class="intro">
-    <div class="left-flex"></div>
-    <div class="inner-intro">
-        <div class="navbar">
-            <a href="/"><img id="logo" src="../public/assets/images/playfull-logo-white.svg"></a>
-            <a class="nav" href="mobile_restaurants.html">Restaurants</a>
-        </div>
+<div class="navbar">
+    <a href="#top"><img id="logo" src="../public/assets/images/playfull-logo.png"></a>
 
+    <label for="drop" class="toggle"><img id="menu-icon" src="../public/assets/images/mobile_menu.png"></label>
+    <input type="checkbox" class="check_box" id="drop"/>
+    <ul class="menu">
+        <li><a href="mobile_landing.html">Home</a></li>
+        <li><a href="mobile_restaurants.html">Restaurants</a></li>
+    </ul>
+</div>
+
+<div class="intro">
+    <div class="inner-intro">
         <div id="statement">
             <h1> The power of Play at your fingertips</h1>
             <p> Control your engagement with the PlayFull Dashboard and PlayPad </p>
@@ -40,8 +46,20 @@
     </div>
 </div>
 
+<div id="partners">
+    <h2>Our Partners:</h2>
+    <img src="../public/assets/images/partners/chickfila.png">
+    <img src="../public/assets/images/partners/chipotle.png">
+    <img src="../public/assets/images/partners/subway.png">
+    <img src="../public/assets/images/partners/kfc.png">
+    <img src="../public/assets/images/partners/dennys.png">
+    <img src="../public/assets/images/partners/coffeebean.png">
+    <img src="../public/assets/images/partners/carlsjr.png">
+    <img src="../public/assets/images/partners/fatburger.png">
+    <img src="../public/assets/images/partners/pokebar.png">
+</div>
+
 <div class="dash">
-    <div class="left-flex"></div>
     <div class="inner-dash">
         <div id="text">
             <h2>PlayFull Dashboard</h2>
@@ -106,7 +124,6 @@
 </div>
 
 <div class="playpad">
-    <div class="left-flex"></div>
     <div class="inner-playpad">
         <div id="text">
             <h2> The PlayPad </h2>
@@ -159,28 +176,14 @@
 <div id="partner">
     <h2> Become a Restaurant Partner</h2>
     <form id="become_partner">
-        <div class="row">
-            <div>
-                <p>First Name:*</p>
-                <input type="text" name="first_name" required>
-            </div>
-            <div id="form_spacing"></div>
-            <div>
-                <p> Last name:*</p>
-                <input type="text" name="last_name" required>
-            </div>
-        </div>
-        <div class="row">
-            <div>
-                <p>Email:*</p>
-                <input name="email" type="text" required>
-            </div>
-            <div id="form_spacing"></div>
-            <div>
-                <p>Phone:</p>
-                <input name="phone" type="text">
-            </div>
-        </div>
+        <p>First Name:*</p>
+        <input type="text" name="first_name" required><br>
+        <p> Last name:*</p>
+        <input type="text" name="last_name" required><br>
+        <p>Email:*</p>
+        <input name="email" type="text" required><br>
+        <p>Phone:</p>
+        <input name="phone" type="text"><br>
         <p>Restaurant Name:</p>
         <input name="restaurant_name" type="text"><br>
         <p>Restaurant Address:</p>

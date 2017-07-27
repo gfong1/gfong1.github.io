@@ -1,5 +1,68 @@
 @charset "UTF-8";
 /* CSS Document */
+
+.intro {
+    background-color: black;
+    background: url(../assets/images/business/mobile_intro.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 200px;
+    padding: 20px;
+}
+
+.inner-intro{
+    margin: 0px;
+}
+
+.intro .inner-intro #statement {
+    margin: 5px;
+    text-align: center;
+}
+.intro .inner-intro #statement h1{
+    margin: 0px;
+    font-size: 20px;
+}
+.intro .inner-intro #statement p{
+    margin: 0px;
+    font-size: 14px;
+}
+
+#partners {
+    text-align: center;
+}
+
+#partners h2 {
+    margin: 10px 10px 0px 10px;
+}
+
+#partners img{
+    height: 45px;
+    margin: 20px;
+}
+
+.dash {
+    background: url(../assets/images/business/mobile_dashboard.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+    padding: 0px
+}
+
+.dash .inner-dash #text {
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+
+.dash .inner-dash #text h2 {
+    margin: 10px;
+    font-size: 20px;
+}
+.dash .inner-dash #text p {
+    margin: 0px;
+    font-size: 12px;
+}
+
 .dash-features .inner-dash-features .feature-box .feature-col .feature-item {
     /*	margin: auto;*/
     margin: 30px 20px 0px 20px
@@ -7,6 +70,29 @@
 
 .dash-features .inner-dash-features h2 {
     margin: 20px 0px -20px 0px;
+}
+
+.playpad {
+    background: url(../assets/images/business/mobile_playpad.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+    padding: 0px
+}
+
+.playpad .inner-playpad #text {
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+.playpad .inner-playpad #text h2{
+    margin: 10px;
+    font-size: 20px;
+}
+.playpad .inner-playpad #text p{
+    margin: 10px;
+    font-size: 12px;
 }
 
 .playpad-features {
