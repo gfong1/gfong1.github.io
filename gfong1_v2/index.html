@@ -18,19 +18,20 @@
 
 <nav id ="nav" class="navbar navbar-fixed-top">
   <a id="nav_title" class="scroll navbar-brand" href="#home">
-    <img id="logo" src="./assets/images/logo.png">
+    <img id="logo" class="nav_img" src="./assets/images/logo.png">
   </a>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div id="nav_items" class="navbar-nav">
-      <a class="nav-item nav-link scroll" href="#programming">Programming</a>
-      <a class="nav-item nav-link scroll" href="#leadership">Leadership</a>
-      <a class="nav-item nav-link scroll" href="#mental_health">Mental Health</a>
-      <a class="nav-item nav-link scroll" href="#fun">Fun Stuff</a>
-      <a class="nav-item nav-link scroll" href="#contact">Contact</a>
+      <a class="nav-item nav-link scroll" href="#programming"><img class="nav_img" src="./assets/images/programming.png"></a>
+      <a class="nav-item nav-link scroll" href="#leadership"><img class="nav_img" src="./assets/images/leadership.png"></a>
+      <a class="nav-item nav-link scroll" href="#mental_health"><img class="nav_img" src="./assets/images/mental_health.png"></a>
+      <a class="nav-item nav-link scroll" href="#fun"><img class="nav_img" src="./assets/images/fun_stuff.png"></a>
+      <a class="nav-item nav-link scroll" href="#contact"><img class="nav_img" src="./assets/images/contact.png"></a>
+      <div id="nav-filler"></div>
     </div>
   </div>
 </nav>
-
+<div id="nav-background"></div>
 <div id="home">
   <h1>Grant Fong</h1>
   <p>Description Here</p>
@@ -38,44 +39,56 @@
 <div id="programming" class="row section">
   <div class="col-sm-8 content">
     <div class="list_item">
-      <h3>Playfull</h3>
-      <p>Some Description</p>
+      <a href="http://beplayfull.com/"><h3>Playfull</h3></a>
+      <p>Developed Game Challenges Backend and took on System Admin roles</p><br>
+      <p>django, postgreSQL, AWS, circleCI, Digital Ocean</p>
+    </div>
+    <div class="list_item">
+      <a href="https://devpost.com/software/ios-internet-of-stories-ybtn39"><h3>The Internet of Stories (iOS)</h3></a>
+      <p>Project for a16z Battle of The Hacks 2017</p>
+      <p>Chrome extention that adds Instagram-like stories to every website so you can always see what your friends are up to.</p><br>
+      <p>Java, JavaScript, AWS</p>
     </div>
     <div class="list_item">
       <h3>Brown EHS</h3>
-      <p>Some Description</p>
+      <p>Built a tool for Environmental Health and Safety to log laboratory risk assessments</p><br>
+      <p>node.js, mySQL, Bootstrap, Docker</p>
     </div>
     <div class="list_item">
-      <h3>UCSF</h3>
-      <p>Some Description</p>
+      <a href="http://cancerres.aacrjournals.org/content/77/6/1322.long"><h3>UCSF</h3></a>
+      <p>Developed a software package and data pipeline for start to finish genomic analysis and data visualization.</p><br>
+      <p>R</p>
     </div>
     <div class="list_item">
-      <h3>Stanford</h3>
-      <p>Some Description</p>
+      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4322897/"><h3>Stanford</h3></a>
+      <p>Created MRI image analytics plugins, performed data cleaning and implemented a database system</p><br>
+      <p>Objective-C, OsiriX.</p>
     </div>
   </div>
   <div class="col-sm-4">
     <h2 class="section_title">Programming</h2>
+    <p class="section_subtitle">Hack it up!</p>
   </div>
 </div>
 
 <div id="leadership" class="row section">
   <div class="col-sm-8 content">
     <div class="list_item">
-      <h3>Hack@Brown</h3>
-      <p>Some Description</p>
+      <a href="https://2017.hackatbrown.org/"><h3>Hack@Brown</h3></a>
+      <p>Co-directing Brown's largest Hackathon, focused on inclusivity and learning.</p>
     </div>
     <div class="list_item">
-      <h3>Computer Science TA</h3>
-      <p>Some Description</p>
+      <a href="http://cs.brown.edu/courses/cs141/"><h3>Computer Science TA</h3></a>
+      <p>Teaching Assistant for CS 141 (AI, fall 2017), CS 15 (Intro To OOP, fall 2016)</p>
     </div>
     <div class="list_item">
-      <h3>Startup@Brown</h3>
+      <a href="http://startupatbrown.org/"><h3>Startup@Brown</h3></a>
       <p>Some Description</p>
     </div>
   </div>
   <div class="col-sm-4">
     <h2 class="section_title">Leadership</h2>
+    <p class="section_subtitle">Cool things I have led</p>
   </div>
 </div>
 
@@ -86,16 +99,17 @@
       <p>Some Description</p>
     </div>
     <div class="list_item">
-      <h3>LETS</h3>
-      <p>Some Description</p>
+      <a href="http://www.letserasethestigma.com/"><h3>LETS</h3></a>
+      <p>Provided peer counseling and hosted workshops on Mental Health.</p>
     </div>
     <div class="list_item">
       <h3>ILMHC</h3>
-      <p>Some Description</p>
+      <p>Organized the 2nd annual Ivy League Mental Health Conference and created a marketing strategy.</p>
     </div>
   </div>
   <div class="col-sm-4">
     <h2 class="section_title">Mental Health</h2>
+    <p class="section_subtitle">Student activist work</p>
   </div>
 </div>
 
@@ -103,37 +117,36 @@
   <div class="col-sm-8 content">
     <div class="list_item">
       <h3>ILMHC</h3>
+      <p>2nd annual Ivy League Mental Health Conference</p>
       <p>Student activist panelist</p>
     </div>
     <div class="list_item">
-      <h3>BDS</h3>
-      <p>Some Description</p>
+      <a href="http://bds.cs.brown.edu/datathon/"><h3>Brown Datathon</h3></a>
+      <p>Created and led Data Analytics in Healthcare workshop</p>
     </div>
   </div>
   <div class="col-sm-4">
     <h2 class="section_title">Talks</h2>
+    <p class="section_subtitle">When people ask me to speak</p>
   </div>
 </div>
 
 <div id="fun" class="row section">
   <div class="col-sm-8 content">
     <div class="list_item">
-      <h3>iOS</h3>
-      <p>Some Description</p>
-    </div>
-    <div class="list_item">
       <h3>Muso</h3>
-      <p>Music 2020</p>
-      <p>Brown Explore Grant</p>
+      <p>Brown Explore Grant recipient</p>
+      <p>Music 2020 pitch competion winner</p>
     </div>
     <div class="list_item">
       <h3>CareConnect</h3>
-      <p>MedStart</p>
-      <p>URI</p>
+      <p>Tufts MedStart pitch competition finalist</p>
+      <p>URI Health Hacks 2nd Place</p>
     </div>
   </div>
   <div class="col-sm-4">
     <h2 class="section_title">Fun Stuff</h2>
+    <p class="section_subtitle">Side projects from my free time</p>
   </div>
 </div>
 <div id="contact" >
