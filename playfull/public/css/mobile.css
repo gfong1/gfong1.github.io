@@ -37,7 +37,7 @@
 
 /**/
 .purpose {
-    padding: 30px 20px;
+    padding: 30px 15px;
 }
 
 .purpose #game-demo {
@@ -63,7 +63,7 @@
 }
 
 .business {
-    padding: 30px;
+    padding: 30px 15px;
 }
 
 .business #laptop {
@@ -79,7 +79,7 @@
 }
 
 .business .inner-business #features ul {
-    margin: 0px 0px 40px -60px;
+    margin: 0px 0px 40px -20px;
 }
 
 footer {

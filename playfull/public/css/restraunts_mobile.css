@@ -25,8 +25,24 @@
     font-size: 30px;
 }
 .intro .inner-intro #statement p {
-    margin: 10px;
+    font-family: Lato-Regular;
+    margin: 0px;
     font-size: 15px;
+}
+
+#partner-box {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
 }
 
 #partners {
@@ -38,7 +54,7 @@
 }
 
 #partners img{
-    height: 45px;
+    height: 40px;
     margin: 20px;
 }
 
@@ -63,7 +79,7 @@
 
 .dash-features .inner-dash-features .feature-box .feature-col .feature-item {
     /*	margin: auto;*/
-    margin: 40px 20px 0px 20px
+    margin: 40px 10px 0px 10px
 }
 
 .dash-features .inner-dash-features h2 {
