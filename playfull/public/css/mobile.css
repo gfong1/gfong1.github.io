@@ -6,7 +6,6 @@
 .navbar {
     padding: 10px;
     background-color: black;
-    color: Green;
 }
 .navbar #logo {
     padding: 5px;
@@ -25,7 +24,8 @@
     text-align: center;
 }
 .mission .inner-mission #statement {
-    margin: 0px;
+    display: block;
+    margin: auto;
 }
 .mission .inner-mission #statement h1{
     font-size: 30px;
@@ -63,14 +63,14 @@
 }
 
 .business {
-    padding: 30px 30px 40px 50px;
+    padding: 30px;
 }
 
 .business #laptop {
     width: 284px;
     height: 130px;
     display: block;
-    margin: 50px auto 30px auto;
+    margin: 30px auto;
 }
 
 .business .inner-business #features #learn-more {

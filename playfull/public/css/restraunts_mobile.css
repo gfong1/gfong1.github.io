@@ -1,16 +1,18 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.section-banner {
+    width: 100%;
+}
+
 .intro {
-    background-color: black;
-    background: url(../assets/images/business/mobile_intro.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 200px;
+    color: black;
     padding: 20px;
+    background: transparent;
 }
 
 .inner-intro{
+    background: transparent;
     margin: 0px;
 }
 
@@ -19,12 +21,12 @@
     text-align: center;
 }
 .intro .inner-intro #statement h1{
-    margin: 0px;
-    font-size: 20px;
+    margin: 10px;
+    font-size: 30px;
 }
-.intro .inner-intro #statement p{
-    margin: 0px;
-    font-size: 14px;
+.intro .inner-intro #statement p {
+    margin: 10px;
+    font-size: 15px;
 }
 
 #partners {
@@ -41,63 +43,61 @@
 }
 
 .dash {
-    background: url(../assets/images/business/mobile_dashboard.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 250px;
+    background: transparent;
     padding: 0px
 }
 
 .dash .inner-dash #text {
     margin: 0px;
-    color: white;
     text-align: center;
 }
 
 .dash .inner-dash #text h2 {
-    margin: 10px;
-    font-size: 20px;
+    margin: 20px;
+    font-size: 30px;
 }
 .dash .inner-dash #text p {
-    margin: 0px;
-    font-size: 12px;
+    margin: 20px;
+    font-size: 15px;
 }
 
 .dash-features .inner-dash-features .feature-box .feature-col .feature-item {
     /*	margin: auto;*/
-    margin: 30px 20px 0px 20px
+    margin: 40px 20px 0px 20px
 }
 
 .dash-features .inner-dash-features h2 {
     margin: 20px 0px -20px 0px;
+    font-size: 25px;
 }
 
 .playpad {
-    background: url(../assets/images/business/mobile_playpad.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 250px;
+    background: transparent;
     padding: 0px
 }
 
 .playpad .inner-playpad #text {
     margin: 0px;
     text-align: center;
-    color: white;
 }
 
 .playpad .inner-playpad #text h2{
-    margin: 10px;
-    font-size: 20px;
+    margin: 20px;
+    font-size: 30px;
 }
 .playpad .inner-playpad #text p{
-    margin: 10px;
-    font-size: 12px;
+    margin: 20px;
+    font-size: 15px;
 }
 
 .playpad-features {
-    padding: 20px 0px;
-    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.playpad-features-title{
+    margin: 0px;
+    font-size: 25px;
 }
 
 .playpad-features #text {
