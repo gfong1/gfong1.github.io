@@ -5,6 +5,7 @@
 body {
 	margin: 0px;
 	font-family: 'Poppins', sans-serif;
+	min-width: 800px;
 /*	text-transform: lowercase;*/
 }
 h1{
@@ -20,13 +21,13 @@ h3 {
 p {
 	margin: 0px;
 }
-a {
+a, a:visited {
 	color: White;
 	text-decoration: none;
 }
 a:hover {
     color: #bcbcbc;
-		text-decoration: overline;
+		text-decoration: none;
 }
 
 /*Generic Styling*/
@@ -55,6 +56,9 @@ a:hover {
 	position: absolute;
 	right: 0px;
 }
+.item_description {
+	font-style: italic;
+}
 
 
 /*Nav*/
@@ -81,13 +85,13 @@ a:hover {
 	height: 60px;
 	background-color: black;
 	/* Firefox */
-	width: -moz-calc(100% - 1000px);
+	width: -moz-calc(100% - 790px);
 	/* WebKit */
-	width: -webkit-calc(100% - 240px);
+	width: -webkit-calc(100% - 790px);
 	/* Opera */
-	width: -o-calc(100% - 240px);
+	width: -o-calc(100% - 790px);
 	/* Standard */
-	width: calc(100% - 800px);
+	width: calc(100% - 790px);
 }
 #nav-background {
 	background-color: pink;
@@ -97,14 +101,14 @@ a:hover {
 
 /*Sections*/
 #home {
-	padding: 200px 100px 200px 100px;
+	padding: 100px;
 	/*background-color: #374785;*/
 	background-color: #DF7567; /*mountain sunset*/
 }
 #home h1{
-	text-align: center;
+	text-align: left;
 	font-weight: 700;
-	font-size: 100px;
+	font-size: 70px;
 	padding: 10px;
 	/*background: url("../images/giphy.gif") repeat;*/
 	/*background: url(http://img07.deviantart.net/5594/i/2012/118/8/3/textures_49_by_sophiefzy-d4xtjbw.jpg) -20px -20px;*/
@@ -113,9 +117,27 @@ a:hover {
 	/*-webkit-background-clip: text;*/
 	color: black;
 }
-#home p{
-	text-align: center;
+#rotator {
+	padding: 0px 10px;
+	color: black;
+	font-size: 70px;
+	font-weight: 700;
+	float: left;
+	white-space:nowrap;
 }
+#title {
+	width: 90%
+}
+
+#intro {
+	background-color: #DF7567; /*mountain sunset*/
+	padding: 0px 115px 200px 115px;
+}
+#intro p{
+	margin: auto;
+	text-align: left;
+}
+
 #programming{
 	/*background-color: #F76C6C;*/
 	background-color: #9A585C; /*mountain sunset*/

@@ -10,8 +10,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--  Text Rotator -->
+<link rel="stylesheet" href="assets/css/simpletextrotator.css">
+<script type="text/javascript" src="public/js/jquery.simple-text-rotator.js"></script>
+<!-- Assets -->
 <link rel="stylesheet" href="assets/css/main.css">
 <script type="text/javascript" src="public/js/main.js"></script>
+
 </head>
 
 <body>
@@ -22,47 +27,66 @@
   </a>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div id="nav_items" class="navbar-nav">
-      <a class="nav-item nav-link scroll" href="#programming"><img class="nav_img" src="./assets/images/programming.png"></a>
-      <a class="nav-item nav-link scroll" href="#leadership"><img class="nav_img" src="./assets/images/leadership.png"></a>
-      <a class="nav-item nav-link scroll" href="#mental_health"><img class="nav_img" src="./assets/images/mental_health.png"></a>
-      <a class="nav-item nav-link scroll" href="#fun"><img class="nav_img" src="./assets/images/fun_stuff.png"></a>
-      <a class="nav-item nav-link scroll" href="#contact"><img class="nav_img" src="./assets/images/contact.png"></a>
+
+      <a class="nav-item nav-link scroll" href="#programming"><img class="nav_img" src="./assets/images/constant-spacing/programming.png"></a>
+      <a class="nav-item nav-link scroll" href="javascript:;"><img class="nav_img" src="./assets/images/spacer.png"></a>
+      <a class="nav-item nav-link scroll" href="#leadership"><img class="nav_img" src="./assets/images/constant-spacing/leadership.png"></a>
+      <a class="nav-item nav-link scroll" href="javascript:;"><img class="nav_img" src="./assets/images/spacer.png"></a>
+      <a class="nav-item nav-link scroll" href="#mental_health"><img class="nav_img" src="./assets/images/constant-spacing/mental_health.png"></a>
+      <a class="nav-item nav-link scroll" href="javascript:;"><img class="nav_img" src="./assets/images/spacer.png"></a>
+      <a class="nav-item nav-link scroll" href="#fun"><img class="nav_img" src="./assets/images/constant-spacing/fun_stuff.png"></a>
+      <a class="nav-item nav-link scroll" href="javascript:;"><img class="nav_img" src="./assets/images/spacer.png"></a>
+      <a class="nav-item nav-link scroll" href="#contact"><img class="nav_img" src="./assets/images/constant-spacing/contact.png"></a>
       <div id="nav-filler"></div>
     </div>
   </div>
 </nav>
 <div id="nav-background"></div>
 <div id="home">
-  <h1>Grant Fong</h1>
-  <p>Description Here</p>
+  <div id="title">
+    <h1>Hi, I'm Grant and I'm a:</h1>
+    <span id="rotator" class="rotate">
+      Developer,
+      Data Scientist,
+      Student Activist,
+      Certified Cool Guy
+    </span>
+  </div>
+</div>
+<div id="intro">
+  <p>Brown Class of '19<br>Computer Science</p>
 </div>
 <div id="programming" class="row section">
   <div class="col-sm-8 content">
     <div class="list_item">
-      <a href="http://beplayfull.com/"><h3>Playfull</h3></a>
-      <p>Developed Game Challenges Backend and took on System Admin roles</p><br>
+      <a href="http://beplayfull.com/" target="_blank"><h3>Playfull</h3></a>
+      <p class="item_description">Backend Intern</p>
+      <p>Developed Game Challenges Backend and took on System Admin roles. A Techstars company.</p><br>
       <p>django, postgreSQL, AWS, circleCI, Digital Ocean</p>
     </div>
     <div class="list_item">
-      <a href="https://devpost.com/software/ios-internet-of-stories-ybtn39"><h3>The Internet of Stories (iOS)</h3></a>
-      <p>Project for a16z Battle of The Hacks 2017</p>
+      <a href="https://devpost.com/software/ios-internet-of-stories-ybtn39" target="_blank"><h3>The Internet of Stories (iOS)</h3></a>
+      <p class="item_description">Project for a16z Battle of The Hacks 2017</p>
       <p>Chrome extention that adds Instagram-like stories to every website so you can always see what your friends are up to.</p><br>
       <p>Java, JavaScript, AWS</p>
     </div>
     <div class="list_item">
       <h3>Brown EHS</h3>
+      <p class="item_description">Project for CSCI 1320</p>
       <p>Built a tool for Environmental Health and Safety to log laboratory risk assessments</p><br>
       <p>node.js, mySQL, Bootstrap, Docker</p>
     </div>
     <div class="list_item">
-      <a href="http://cancerres.aacrjournals.org/content/77/6/1322.long"><h3>UCSF</h3></a>
+      <a href="http://cancerres.aacrjournals.org/content/77/6/1322.long" target="_blank"><h3>UCSF</h3></a>
+      <p class="item_description">Data Science Intern</p>
       <p>Developed a software package and data pipeline for start to finish genomic analysis and data visualization.</p><br>
       <p>R</p>
     </div>
     <div class="list_item">
-      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4322897/"><h3>Stanford</h3></a>
+      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4322897/" target="_blank"><h3>Stanford</h3></a>
+      <p class="item_description">Intern</p>
       <p>Created MRI image analytics plugins, performed data cleaning and implemented a database system</p><br>
-      <p>Objective-C, OsiriX.</p>
+      <p>Objective-C, OsiriX</p>
     </div>
   </div>
   <div class="col-sm-4">
@@ -74,16 +98,20 @@
 <div id="leadership" class="row section">
   <div class="col-sm-8 content">
     <div class="list_item">
-      <a href="https://2017.hackatbrown.org/"><h3>Hack@Brown</h3></a>
+      <a href="https://2017.hackatbrown.org/" target="_blank"><h3>Hack@Brown</h3></a>
+      <p class="item_description">Co-Director</p>
       <p>Co-directing Brown's largest Hackathon, focused on inclusivity and learning.</p>
+      <p>Out of 500 people, last year's demographics were 49% Female, 48% Male, 3% Non gender bindary</p>
     </div>
     <div class="list_item">
-      <a href="http://cs.brown.edu/courses/cs141/"><h3>Computer Science TA</h3></a>
-      <p>Teaching Assistant for CS 141 (AI, fall 2017), CS 15 (Intro To OOP, fall 2016)</p>
+      <a href="http://cs.brown.edu/courses/cs141/" target="_blank"><h3>Computer Science TA</h3></a>
+      <p class="item_description">AI, Fall 2017 <br>Intro To OOP, Fall 2016</p>
+      <p>Grading, TA hours, Design discussions, Holding Labs</p>
     </div>
     <div class="list_item">
-      <a href="http://startupatbrown.org/"><h3>Startup@Brown</h3></a>
-      <p>Some Description</p>
+      <a href="http://startupatbrown.org/" target="_blank"><h3>Startup@Brown</h3></a>
+      <p class="item_description">Orginizer</p>
+      <p>Co-Created Brown Demo Day, an event showcasing student startups and connecting students to projects</p>
     </div>
   </div>
   <div class="col-sm-4">
@@ -96,20 +124,23 @@
   <div class="col-sm-8 content">
     <div class="list_item">
       <h3>CS Health and Wellness</h3>
-      <p>Some Description</p>
+      <p class="item_description">Role</p>
+      <p>Led CS department's initiative to improve mental health resources</p>
     </div>
     <div class="list_item">
-      <a href="http://www.letserasethestigma.com/"><h3>LETS</h3></a>
+      <a href="http://www.letserasethestigma.com/" target="_blank"><h3>LETS</h3></a>
+      <p class="item_description">Peer Mental Health Advisor (PMHA)</p>
       <p>Provided peer counseling and hosted workshops on Mental Health.</p>
     </div>
     <div class="list_item">
       <h3>ILMHC</h3>
+      <p class="item_description">Orginizer</p>
       <p>Organized the 2nd annual Ivy League Mental Health Conference and created a marketing strategy.</p>
     </div>
   </div>
   <div class="col-sm-4">
     <h2 class="section_title">Mental Health</h2>
-    <p class="section_subtitle">Student activist work</p>
+    <p class="section_subtitle">Student Activism</p>
   </div>
 </div>
 
@@ -121,7 +152,7 @@
       <p>Student activist panelist</p>
     </div>
     <div class="list_item">
-      <a href="http://bds.cs.brown.edu/datathon/"><h3>Brown Datathon</h3></a>
+      <a href="http://bds.cs.brown.edu/datathon/" target="_blank"><h3>Brown Datathon</h3></a>
       <p>Created and led Data Analytics in Healthcare workshop</p>
     </div>
   </div>
@@ -135,13 +166,15 @@
   <div class="col-sm-8 content">
     <div class="list_item">
       <h3>Muso</h3>
-      <p>Brown Explore Grant recipient</p>
-      <p>Music 2020 pitch competion winner</p>
+      <p class="item_description">Brown Explore Grant recipient</p>
+      <p class="item_description">Music 2020 pitch competition winner</p>
+      <p>Using AI to moderize the music agency industry</p>
     </div>
     <div class="list_item">
       <h3>CareConnect</h3>
-      <p>Tufts MedStart pitch competition finalist</p>
-      <p>URI Health Hacks 2nd Place</p>
+      <p class="item_description">Tufts MedStart pitch competition finalist</p>
+      <p class="item_description">URI Health Hacks 2nd Place</p>
+      <p>A cross platform app to streamline communication between caregivers and families</p>
     </div>
   </div>
   <div class="col-sm-4">
