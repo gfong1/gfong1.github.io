@@ -2,9 +2,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
-<link rel="stylesheet" type="text/css" href="./css/cubes.css"s>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 <title>Grant Fong</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--  Text Rotator -->
+<link rel="stylesheet" href="assets/css/simpletextrotator.css">
+<script type="text/javascript" src="public/js/jquery.simple-text-rotator.js"></script>
+<!-- Assets -->
+<link rel="stylesheet" href="assets/css/main.css">
+<script type="text/javascript" src="public/js/main.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -18,152 +29,219 @@
 </head>
 
 <body>
-	<div id="nav">
-		<h1 id="name"><a href="home.html">grant fong</a></h1>
-		<div id="nav-items">
-			<ul>
-				<li><a href="#experience">Experience</a></li>
-				<li><a href="#leadership">Leadership</a></li>
-				<li><a id="contact" href="#contact_info">Contact</a></li>
-			</ul>
-		</div>
-	</div>
+<div class="desktop">
+  <nav id ="nav" class="navbar navbar-fixed-top">
+    <a id="nav_title" class="scroll navbar-brand" href="#home">
+      <img id="logo" class="nav_img" src="./assets/images/logo.png">
+    </a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div id="nav_items" class="navbar-nav">
+          <a class="nav-item nav-link scroll" href="#programming"><img class="nav_img" src="./assets/images/constant-spacing/programming.png"></a>
+          <a class="nav-item nav-link scroll" href="javascript:;"><img class="nav_img" src="./assets/images/spacer.png"></a>
+          <a class="nav-item nav-link scroll" href="#leadership"><img class="nav_img" src="./assets/images/constant-spacing/leadership.png"></a>
+          <a class="nav-item nav-link scroll" href="javascript:;"><img class="nav_img" src="./assets/images/spacer.png"></a>
+          <a class="nav-item nav-link scroll" href="#mental_health"><img class="nav_img" src="./assets/images/constant-spacing/mental_health.png"></a>
+          <a class="nav-item nav-link scroll" href="javascript:;"><img class="nav_img" src="./assets/images/spacer.png"></a>
+          <a class="nav-item nav-link scroll" href="#fun"><img class="nav_img" src="./assets/images/constant-spacing/fun_stuff.png"></a>
+          <a class="nav-item nav-link scroll" href="javascript:;"><img class="nav_img" src="./assets/images/spacer.png"></a>
+          <a class="nav-item nav-link scroll" href="#contact"><img class="nav_img" src="./assets/images/constant-spacing/contact.png"></a>
+          <div id="nav-filler"></div>
+        </div>
+      </div>
+  </nav>
+</div>
+<div class="mobile" >
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Grant Fong</a>
+      </div>
 
-	<div class="parallax">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a class="nav-item nav-link scroll" data-toggle="collapse" data-target="#navbar-collapse-1" href="#programming">Programming</a></li>
+          <li><a class="nav-item nav-link scroll" data-toggle="collapse" data-target="#navbar-collapse-1" href="#leadership">Leadership</a></li>
+          <li><a class="nav-item nav-link scroll" data-toggle="collapse" data-target="#navbar-collapse-1" href="#mental_health">Mental Health</a></li>
+          <li><a class="nav-item nav-link scroll" data-toggle="collapse" data-target="#navbar-collapse-1" href="#fun">Fun</a></li>
+          <li><a class="nav-item nav-link scroll" data-toggle="collapse" data-target="#navbar-collapse-1" href="#contact">Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</div>
 
-		<div class="parallax__layer parallax__layer--base">
-			<div id="home">
-				<div class="banner">
-					<h2 class="splash">Developer | Data Scientist</h2>
-					<p id="about_me">Hi! My name is Grant, and i'm a current Sophomore at Brown University
-						concentrating in CS. I have focused on the intersection between healthcare
-						and technology, working in research and startup envirnonments. </p>
-				</div>
-			</div>
+<!-- <div id="nav-background"></div> -->
+<div id="home">
+  <div id="title">
+    <h1>Hi, I'm Grant and I'm a:</h1>
+    <span id="rotator" class="rotate">
+      Developer,
+      Data Scientist,
+      Student Activist,
+      Certified Cool Guy
+    </span>
+  </div>
+</div>
+<div id="intro">
+  <p>Brown Class of '19<br>ScB Computer Science</p>
+</div>
+<div id="programming" class="row section">
+  <div class="col-sm-8 content">
+    <div class="mobile">
+      <h2 class="section_title">Programming</h2>
+      <p class="section_subtitle">Hack it up!</p>
+    </div>
+    <div class="list_item">
+      <a href="http://beplayfull.com/" target="_blank"><h3>Playfull</h3></a>
+      <p class="item_description">Backend Intern</p>
+      <p>Developed Game Challenges Backend and took on System Admin roles. A Techstars company.</p><br>
+      <p>django, postgreSQL, AWS, circleCI, Digital Ocean</p>
+    </div>
+    <div class="list_item">
+      <a href="https://devpost.com/software/ios-internet-of-stories-ybtn39" target="_blank"><h3>The Internet of Stories (iOS)</h3></a>
+      <p class="item_description">Project for a16z Battle of The Hacks 2017</p>
+      <p>Chrome extention that adds Instagram-like stories to every website so you can always see what your friends are up to.</p><br>
+      <p>Java, JavaScript, AWS</p>
+    </div>
+    <div class="list_item">
+      <h3>Brown EHS</h3>
+      <p class="item_description">Project for CSCI 1320</p>
+      <p>Built a tool for Environmental Health and Safety to log laboratory risk assessments</p><br>
+      <p>node.js, mySQL, Bootstrap, Docker</p>
+    </div>
+    <div class="list_item">
+      <a href="http://cancerres.aacrjournals.org/content/77/6/1322.long" target="_blank"><h3>UCSF</h3></a>
+      <p class="item_description">Data Science Intern</p>
+      <p>Developed a software package and data pipeline for start to finish genomic analysis and data visualization.</p><br>
+      <p>R</p>
+    </div>
+    <div class="list_item">
+      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4322897/" target="_blank"><h3>Stanford</h3></a>
+      <p class="item_description">Intern</p>
+      <p>Created MRI image analytics plugins, performed data cleaning and implemented a database system</p><br>
+      <p>Objective-C, OsiriX</p>
+    </div>
+  </div>
+  <div class="col-sm-4 desktop">
+    <h2 class="section_title">Programming</h2>
+    <p class="section_subtitle">Hack it up!</p>
+  </div>
+</div>
 
-			<div id = "experience">
-				<div class="banner">
-					<h2 class="splash">Experience</h2>
-					<img id="arrow" src="./resources/arrow.gif">
-				</div>
-				<div id="inline-base">
+<div id="leadership" class="row section">
+  <div class="col-sm-8 content">
+    <div class="mobile">
+      <h2 class="section_title">Leadership</h2>
+      <p class="section_subtitle">Cool things I have helped guide</p>
+    </div>
+    <div class="list_item">
+      <a href="https://2017.hackatbrown.org/" target="_blank"><h3>Hack@Brown</h3></a>
+      <p class="item_description">Co-Director</p>
+      <p>Co-directing Brown's largest Hackathon, focused on inclusivity and learning.</p>
+      <p>Out of 500 people, last year's demographics were 49% Female, 48% Male, 3% Non gender bindary</p>
+    </div>
+    <div class="list_item">
+      <a href="http://cs.brown.edu/courses/cs141/" target="_blank"><h3>Computer Science TA</h3></a>
+      <p class="item_description">AI, Fall 2017 <br>Intro To OOP, Fall 2016</p>
+      <p>Grading, TA hours, Design discussions, Holding Labs</p>
+    </div>
+    <div class="list_item">
+      <a href="http://startupatbrown.org/" target="_blank"><h3>Startup@Brown</h3></a>
+      <p class="item_description">Organizer</p>
+      <p>Co-Created Brown Demo Day, an event showcasing student startups and connecting students to projects</p>
+    </div>
+  </div>
+  <div class="col-sm-4 desktop">
+    <h2 class="section_title">Leadership</h2>
+    <p class="section_subtitle">Cool things I have helped guide</p>
+  </div>
+</div>
 
-					<div id="careconnect" class="content">
-						<img class="icon_cube" src="./resources/cube6.png">
-						<img class="icon" src="./resources/careconnect.png">
-						<h3>CareConnect</h3>
-						<div class="description">
-							<p> Developed and pitched a cross platform app to improve communication between caregivers and families</p>
-						</div>
-					</div>
+<div id="mental_health" class="row section">
+  <div class="col-sm-8 content">
+    <div class="mobile">
+      <h2 class="section_title">Mental Health</h2>
+      <p class="section_subtitle">Student Activism</p>
+    </div>
+    <div class="list_item">
+      <h3>CS Health and Wellness</h3>
+      <p class="item_description">Co-leader</p>
+      <p>Led CS department's initiative to improve mental health resources</p>
+    </div>
+    <div class="list_item">
+      <a href="http://www.letserasethestigma.com/" target="_blank"><h3>LETS</h3></a>
+      <p class="item_description">Peer Mental Health Advisor (PMHA)</p>
+      <p>Provided peer counseling and hosted workshops on Mental Health.</p>
+    </div>
+    <div class="list_item">
+      <h3>ILMHC</h3>
+      <p class="item_description">Orginizer</p>
+      <p>Organized the 2nd annual Ivy League Mental Health Conference and created a marketing strategy.</p>
+    </div>
+  </div>
+  <div class="col-sm-4 desktop">
+    <h2 class="section_title">Mental Health</h2>
+    <p class="section_subtitle">Student Activism</p>
+  </div>
+</div>
 
-					<div id="ucsf" class="content">
-						<img class="icon_cube" src="./resources/cube1.png">
-						<img class="icon" src="./resources/ucsf.png">
-						<h3>UCSF</h3>
-						<div class="description">
-							<p> Developed a software package and data pipeline for start to finish genomic analysis and data visualization.</p>
-						</div>
-					</div>
+<div id="talks" class="row section">
+  <div class="col-sm-8 content">
+    <div class="mobile">
+      <h2 class="section_title">Talks</h2>
+      <p class="section_subtitle">When people ask me to speak</p>
+    </div>
+    <div class="list_item">
+      <h3>ILMHC</h3>
+      <p>2nd annual Ivy League Mental Health Conference</p>
+      <p>Student activist panelist</p>
+    </div>
+    <div class="list_item">
+      <a href="http://bds.cs.brown.edu/datathon/" target="_blank"><h3>Brown Datathon</h3></a>
+      <p>Created and led Data Analytics in Healthcare workshop</p>
+    </div>
+  </div>
+  <div class="col-sm-4 desktop">
+    <h2 class="section_title">Talks</h2>
+    <p class="section_subtitle">When people ask me to speak</p>
+  </div>
+</div>
 
-					<div id="flow" class="content">
-						<img class="icon_cube" src="./resources/cube2.png">
-						<img class="icon" src="./resources/flow.png">
-						<h3>flow</h3>
-						<div class="description">
-							<p> Created procedurally generated flow puzzles as a final project for CS015 </p>
-						</div>
-					</div>
-
-					<div id="stanford" class="content">
-						<img class="icon_cube" src="./resources/cube3.png">
-						<img class="icon" src="./resources/stanford.png">
-						<h3>stanford</h3>
-						<div class="description">
-							<p>Created MRI image analytics plugins, performed data cleaning and implemented a database system</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div id = "leadership">
-				<div class="banner">
-					<h2 class="splash">Leadership</h2>
-					<img id="arrow" src="./resources/arrow.gif">
-				</div>
-				<div id="inline-base">
-
-					<div id="hackatbrown" class="content">
-						<img class="icon_cube" src="./resources/cube6.png">
-						<img class="icon" src="./resources/hack.jpg">
-						<h3>Hack@brown</h3>
-						<div class="description">
-							<p> Created methods and strategies to aid team-forming, mentorship, and judging</p>
-						</div>
-					</div>
-
-					<div id="ta" class="content">
-						<img class="icon_cube" src="./resources/cube3.png">
-						<img class="icon" src="./resources/brown.png">
-						<h3>TA for cs015</h3>
-						<div class="description">
-							<p> Graded assignments, held TA hours, design discussions, and lab hours. Redesigned the algorithms homework to become a section.</p>
-						</div>
-					</div>
-
-					<div id="lets" class="content">
-						<img class="icon_cube" src="./resources/cube2.png">
-						<img class="icon" src="./resources/lets.png">
-						<h3>project lets</h3>
-						<div class="description">
-							<p> Provided peer counseling and hosted workshops on Mental Health.</p>
-						</div>
-					</div>
-
-					<div id="ilmhc" class="content">
-						<img class="icon_cube" src="./resources/cube5.png">
-						<img class="icon" src="./resources/ilmhc.png">
-						<h3>ILMHC</h3>
-						<div class="description">
-							<p>Organized the 2nd annual ivy league mental health conference and Created a marketing strategy.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div id = "contact_info">
-				<div class="banner">
-					<h2 class="splash">Contact</h2>
-					<h3>grant_fong [at] brown.edu </h3>
-					<a href="https://github.com/gfong1">github</a>
-					<a href="https://www.linkedin.com/in/grant-fong/">linkedin</a>
-					<a href="https://docs.google.com/document/d/157IudkKDnfN1EUEX58RczZvOQFOvo2BN3w-C6igdD3I">resume</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="parallax__layer parallax__layer--back">
-		<!--The back layer of cubes-->
-			<img id="cube-1" class="cube" src="./resources/cube1.png">
-			<img id="cube-2" class="cube" src="./resources/cube2.png">
-			<img id="cube-3" class="cube" src="./resources/cube3.png">
-
-			<img id="cube-4" class="cube" src="./resources/cube4.png">
-			<img id="cube-5" class="cube" src="./resources/cube5.png">
-			<img id="cube-6" class="cube" src="./resources/cube6.png">
-		</div>
-
-		<div class="parallax__layer parallax__layer--deep">
-			<img id="cube-a" class="cube" src="./resources/cube4.png">
-			<img id="cube-b" class="cube" src="./resources/cube5.png">
-			<img id="cube-c" class="cube" src="./resources/cube6.png">
-
-			<img id="cube-d" class="cube" src="./resources/cube1.png">
-			<img id="cube-e" class="cube" src="./resources/cube2.png">
-			<img id="cube-f" class="cube" src="./resources/cube3.png">
-		</div>
-
-	</div>
-	<div class="footer"></div>
+<div id="fun" class="row section">
+  <div class="col-sm-8 content">
+    <div class="mobile">
+      <h2 class="section_title">Fun Stuff</h2>
+      <p class="section_subtitle">Side projects from my free time</p>
+    </div>
+    <div class="list_item">
+      <h3>Muso</h3>
+      <p class="item_description">Brown Explore Grant recipient</p>
+      <p class="item_description">Music 2020 pitch competition winner</p>
+      <p>Using AI to moderize the music agency industry</p>
+    </div>
+    <div class="list_item">
+      <h3>CareConnect</h3>
+      <p class="item_description">Tufts MedStart pitch competition finalist</p>
+      <p class="item_description">URI Health Hacks 2nd Place</p>
+      <p>A cross platform app to streamline communication between caregivers and families</p>
+    </div>
+  </div>
+  <div class="col-sm-4 desktop">
+    <h2 class="section_title">Fun Stuff</h2>
+    <p class="section_subtitle">Side projects from my free time</p>
+  </div>
+</div>
+<div id="contact" >
+  <h2>Contact</h2>
+  <h3>grant_fong [at] brown.edu </h3>
+  <a href="https://github.com/gfong1">github</a> <a href="https://www.linkedin.com/in/grant-fong/">linkedin</a> <a href="https://docs.google.com/document/d/157IudkKDnfN1EUEX58RczZvOQFOvo2BN3w-C6igdD3I">resume</a> </div>
 </body>
 </html>
