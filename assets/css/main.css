@@ -98,11 +98,11 @@ a:hover {
 	/* Firefox */
 	width: -moz-calc(100% - 785px);
 	/* WebKit */
-	width: -webkit-calc(100% - 790px);
+	width: -webkit-calc(100% - 785px);
 	/* Opera */
-	width: -o-calc(100% - 790px);
+	width: -o-calc(100% - 785px);
 	/* Standard */
-	width: calc(100% - 790px);
+	width: calc(100% - 785px);
 }
 #nav-background {
 	background-color: pink;
