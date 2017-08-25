@@ -96,7 +96,7 @@ a:hover {
 	height: 60px;
 	background-color: black;
 	/* Firefox */
-	width: -moz-calc(100% - 790px);
+	width: -moz-calc(100% - 785px);
 	/* WebKit */
 	width: -webkit-calc(100% - 790px);
 	/* Opera */
