@@ -5,7 +5,7 @@
 body {
 	margin: 0px;
 	font-family: 'Poppins', sans-serif;
-	min-width: 600px;
+	min-width: 300px;
 /*	text-transform: lowercase;*/
 }
 h1{
@@ -206,4 +206,20 @@ a:hover {
     .navbar-header {
         float:none;
     }
+		#home h1{
+			font-size: 30px;
+		}
+		#rotator {
+			font-size: 30px;
+		}
+		#home {
+			padding: 80px 40px 0px 40px;
+		}
+		#intro {
+			padding: 80px 50px;
+		}
+		#contact{
+			padding: 80px 20px;
+		}
+
 }
