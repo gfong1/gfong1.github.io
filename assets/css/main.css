@@ -43,18 +43,54 @@ a:hover {
 .content{
 
 }
+.scrolls {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 600px;
+		width: 100%;
+		padding: 0px 30px;
+    white-space: nowrap;
+}
 .list_item {
-	margin: 30px 30px 30px 30px;
+	cursor: pointer;
+	vertical-align: top;
+	display:inline-block;
+	*display:inline;/* For IE7*/
+	*zoom:1;/* For IE7*/
+	width: 280px;
+	height: 560px;
+	margin: 20px;
+	white-space: normal;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	/*border: none;*/
+	border-style: solid;
+	/*background: url(http://www.adspreemedia.com/sites/default/files/background-image-block/2560x1440-black-solid-color-background_3.jpg);*/
 }
-.desktop .section_title {
-	padding: 40px 10px;
-	position: absolute;
-	right: 0px;
+.list_item img{
+	-webkit-border-radius: 27px 27px 0 0;
+	-moz-border-radius: 27px 27px 0 0;
+	border-radius: 27px 27px 0 0;
+	width: 274px;
+	height: 274px;
+	/*background-color: black;*/
 }
-.desktop .section_subtitle{
-	padding: 80px 10px;
-	position: absolute;
-	right: 0px;
+.item_content{
+	padding: 30px;
+}
+.section_info{
+	padding: 30px 20px 0px 30px;
+}
+.list_item h3{
+	margin: 0px 0px 10px 0px;
+}
+
+.section_title {
+	padding: 30px 20px 0px 30px;
+}
+.section_subtitle{
+	padding: 10px 30px;
 }
 .item_description {
 	font-style: italic;
@@ -64,12 +100,6 @@ a:hover {
 .mobile{
 	display: none;
 	padding: 30px 30px 0px 30px;
-}
-.mobile .section_title {
-	/*padding: 40px 10px;*/
-}
-.mobile .section_subtitle{
-	/*padding: 80px 10px;*/
 }
 
 /*Nav*/
@@ -117,7 +147,7 @@ a:hover {
 
 /*Sections*/
 #home {
-	padding: 100px;
+	padding: 200px 100px 100px 100px;;
 	/*background-color: #374785;*/
 	background-color: #DF7567; /*mountain sunset*/
 }
