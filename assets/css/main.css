@@ -1,6 +1,43 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,700);
 
+/*Gradient Items*/
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
 /*Default Items*/
 body {
 	margin: 0px;
@@ -50,6 +87,7 @@ a:hover {
 		width: 100%;
 		padding: 0px 30px;
     white-space: nowrap;
+		align: center;
 }
 .list_item {
 	cursor: pointer;
@@ -61,20 +99,19 @@ a:hover {
 	height: 560px;
 	margin: 20px;
 	white-space: normal;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 30px;
-	/*border: none;*/
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
 	border-style: solid;
-	/*background: url(http://www.adspreemedia.com/sites/default/files/background-image-block/2560x1440-black-solid-color-background_3.jpg);*/
+	overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .list_item img{
-	-webkit-border-radius: 27px 27px 0 0;
-	-moz-border-radius: 27px 27px 0 0;
-	border-radius: 27px 27px 0 0;
+	-webkit-border-radius: 17px 17px 0 0;
+	-moz-border-radius: 17px 17px 0 0;
+	border-radius: 17px 17px 0 0;
 	width: 274px;
 	height: 274px;
-	/*background-color: black;*/
 }
 .item_content{
 	padding: 30px;
@@ -149,7 +186,7 @@ a:hover {
 #home {
 	padding: 200px 100px 100px 100px;;
 	/*background-color: #374785;*/
-	background-color: #DF7567; /*mountain sunset*/
+	/*background-color: #DF7567; /*mountain sunset*/*/
 }
 #home h1{
 	text-align: left;
@@ -176,7 +213,7 @@ a:hover {
 }
 
 #intro {
-	background-color: #DF7567; /*mountain sunset*/
+	/*background-color: #DF7567; mountain sunset*/
 	padding: 0px 115px 200px 115px;
 }
 #intro p{
@@ -215,6 +252,14 @@ a:hover {
 	/*background-color: #9B786F;*/
 	background-color: #141528; /*mountain sunset*/
 	color: white;
+}
+#splash {
+	/*background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);*/
+	background: linear-gradient(-45deg, #3A1C71, #D76D77, #FFAF7B);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 30s ease infinite;
+	-moz-animation: Gradient 30s ease infinite;
+	animation: Gradient 30s ease infinite;
 }
 
 @media only screen and (max-width: 795px) {
