@@ -1,0 +1,300 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700);
+
+/*Gradient Items*/
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+/*Default Items*/
+body {
+	margin: 0px;
+	font-family: 'Poppins', sans-serif;
+	min-width: 300px;
+/*	text-transform: lowercase;*/
+}
+h1{
+	margin: 0px;
+}
+h2{
+	font-weight: 700;
+	margin: 0px;
+}
+h3 {
+	margin:	0px;
+}
+p {
+	margin: 0px;
+}
+a, a:visited {
+	color: White;
+	text-decoration: none;
+}
+a:hover {
+    color: #bcbcbc;
+		text-decoration: none;
+}
+
+/*Generic Styling*/
+.section {
+	margin: 0px;
+	color: white;
+	padding-bottom: 30px;
+	/*display: inline-flex;
+	display: -webkit-flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;*/
+}
+.content{
+
+}
+.scrolls {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 600px;
+		width: 100%;
+		padding: 0px 30px;
+    white-space: nowrap;
+		align: center;
+}
+.list_item {
+	cursor: pointer;
+	vertical-align: top;
+	display:inline-block;
+	*display:inline;/* For IE7*/
+	*zoom:1;/* For IE7*/
+	width: 280px;
+	height: 560px;
+	margin: 20px;
+	white-space: normal;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border-style: solid;
+	overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+}
+.list_item img{
+	-webkit-border-radius: 17px 17px 0 0;
+	-moz-border-radius: 17px 17px 0 0;
+	border-radius: 17px 17px 0 0;
+	width: 274px;
+	height: 274px;
+}
+.item_content{
+	padding: 30px;
+}
+.section_info{
+	padding: 30px 20px 0px 30px;
+}
+.list_item h3{
+	margin: 0px 0px 10px 0px;
+}
+
+.section_title {
+	padding: 30px 20px 0px 30px;
+}
+.section_subtitle{
+	padding: 10px 30px;
+}
+.item_description {
+	font-style: italic;
+}
+
+/*Mobile*/
+.mobile{
+	display: none;
+	padding: 30px 30px 0px 30px;
+}
+
+/*Nav*/
+#logo {
+	margin: 0px;
+	height: 60px;
+}
+#nav_title {
+	padding: 0px;
+	margin: 0px;
+}
+#nav_items {
+	height: 60px;
+	overflow-x: hidden;
+}
+.nav_img{
+	margin: 0px -3px;
+	height: 60px;
+}
+#nav-filler {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 60px;
+	background-color: black;
+	/* Firefox */
+	width: -moz-calc(100% - 785px);
+	/* WebKit */
+	width: -webkit-calc(100% - 785px);
+	/* Opera */
+	width: -o-calc(100% - 785px);
+	/* Standard */
+	width: calc(100% - 785px);
+}
+#nav-background {
+	background-color: pink;
+	height: 60px;
+	width: 100%
+}
+
+/*Mobile nav*/
+.mobile .navbar {
+	font-weight: 700;
+}
+
+/*Sections*/
+#home {
+	padding: 200px 100px 100px 100px;;
+	/*background-color: #374785;*/
+	/*background-color: #DF7567; /*mountain sunset*/*/
+}
+#home h1{
+	text-align: left;
+	font-weight: 700;
+	font-size: 70px;
+	padding: 10px;
+	/*background: url("../images/giphy.gif") repeat;*/
+	/*background: url(http://img07.deviantart.net/5594/i/2012/118/8/3/textures_49_by_sophiefzy-d4xtjbw.jpg) -20px -20px;*/
+	/*background-size: 100%;*/
+	/*-webkit-text-fill-color: transparent;*/
+	/*-webkit-background-clip: text;*/
+	color: black;
+}
+#rotator {
+	padding: 0px 10px;
+	color: black;
+	font-size: 70px;
+	font-weight: 700;
+	float: left;
+	white-space:nowrap;
+}
+#title {
+	width: 90%
+}
+
+#intro {
+	/*background-color: #DF7567; mountain sunset*/
+	padding: 0px 115px 200px 115px;
+}
+#intro p{
+	margin: auto;
+	text-align: left;
+}
+
+#programming{
+	/*background-color: #F76C6C;*/
+	background-color: #9A585C; /*mountain sunset*/
+	/*color: #adadad;*/
+}
+#leadership{
+	/*background-color: #A8D0E6;*/
+	background-color: #624652; /*mountain sunset*/
+	/*color: #b5b5b5;*/
+}
+#mental_health{
+	/*background-color: #3AAFA9;*/
+	background-color: #4d4662; /*mountain sunset*/
+	/*color: #bcbcbc;*/
+}
+#talks{
+	/*background-color: #F8E9A1;*/
+	background-color: #282945; /*mountain sunset*/
+	/*color: #c1c1c1;*/
+}
+#fun{
+	/*background-color: #F5E6CC;*/
+	background-color: #1F203C; /*mountain sunset*/
+	/*color: #e2e2e2;*/
+}
+#contact{
+	padding: 200px 100px 200px 100px;
+	text-align:center;
+	/*background-color: #9B786F;*/
+	background-color: #141528; /*mountain sunset*/
+	color: white;
+}
+#splash {
+	/*background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);*/
+	background: linear-gradient(-45deg, #3A1C71, #D76D77, #FFAF7B);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 30s ease infinite;
+	-moz-animation: Gradient 30s ease infinite;
+	animation: Gradient 30s ease infinite;
+}
+
+@media only screen and (max-width: 795px) {
+    .desktop {
+    	display: none;
+    }
+		.mobile {
+			display: block;
+		}
+		.navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+		#home h1{
+			font-size: 30px;
+		}
+		#rotator {
+			font-size: 30px;
+		}
+		#home {
+			padding: 80px 40px 0px 40px;
+		}
+		#intro {
+			padding: 80px 50px;
+		}
+		#contact{
+			padding: 80px 20px;
+		}
+
+}
